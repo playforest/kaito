@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
+    <title>Kaito
+    </title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-5">
+        <div class="container">
+            <a href="#" class="navbar-brand">kaito</a>
+        </div>
+
+    </nav>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div class="container-  ">
+        <div class="row">
+            <div class="col-1"></div>
+
+            <!-- video container -->
+            <div class="col-6">
+
+                <div class="container embed-responsive embed-responsive-16by9">
+                    <div class="container"><div id="player"></div></div>
+                </div>
+                <br>
+    
+                    <div class="container player-ctrls">
+                        <div class="d-flex flex-row justify-content-around">
+                        <button type="button" class="btn btn-primary playBtn"><span class="fas fa-play"</span></button>
+                        <button type="button" class="btn btn-secondary pauseBtn"><span class="fas fa-pause"></span></button>
+                        <input type="range" class="form-control-range slider" id="formControlRange" min="0" value="0" style="max-width: 90%; float: right;">
+                        <!-- </form> -->
+                    </div>
+
+                    </div>
+            </div>
+
+            <div class="col-4">
+                    <div class="card">
+                            <h5 class="card-header">Featured</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">Special title treatment</h5>
+                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                    </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+        
+        
+        <!-- working backup -->
+        <!-- <div class="container player-ctrls">
+                <div class="row align-self-center">
+            <button type="button" class="btn btn-primary playBtn"><span class="fas fa-play"</span></button>
+                <button type="button" class="btn btn-secondary pauseBtn"><span class="fas fa-pause"></span></button>
+                <input type="range" class="form-control-range slider" id="formControlRange" min="0" value="0" style="max-width: 92%; float: right;">
+            </form>
+        </div> -->
+
+        <script src="player.js"></script>
+
+        <!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

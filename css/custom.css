@@ -1,0 +1,42 @@
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+/* input.slider {
+      vertical-align: middle; 
+      height: 15px;
+      border-radius: 5px;   
+      background: #d3d3d3;
+} */
+
+/* .playBtn {
+    background-color: #e2f5fe
+}
+
+.pauseBtn {
+    background-color: #eeeeee
+} */
+.my-flex-container {
+    /* border: 2px solid green; */
+    height: 40px;
+    margin-bottom: 10px 
+}
+
+.my-flex-container-column {
+    border: 2px solid green;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.my-flex-item {
+    /* background-color: lightgrey; */
+    /* border: 1px dotted grey; */
+    height: 40px;
+}
+
+.my-flex-item-2 {
+    background-color: lightgrey;
+    border: 1px dotted grey;
+    height: 90px
+}
